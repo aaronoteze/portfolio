@@ -1,0 +1,5 @@
+*.lck
+*.bak
+*~
+.DS_Store
+out/
