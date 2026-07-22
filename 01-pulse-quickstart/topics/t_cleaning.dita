@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_lcs_ck2_zjc">
+    <title>Clean Your Pulse Bottle</title>
+    <shortdesc>Clean your bottle weekly to prevent odours and maintain the seal.</shortdesc>
+    <taskbody>
+        <context>
+            <p>The bottle base contains electronics and is not dishwasher safe. Only the lid and
+                straw can go in the dishwasher.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Remove the lid and straw from the bottle base.</cmd>
+            </step>
+            <step>
+                <cmd>Hand-wash the bottle base with warm water and a small amount of mild dish
+                    soap.</cmd>
+            </step>
+            <step>
+                <cmd>Place the lid and straw on the top rack of the dishwasher, or hand-wash them
+                    separately.</cmd>
+            </step>
+            <step>
+                <cmd>Allow all parts to air-dry completely before reassembling.</cmd>
+            </step>
+        </steps>
+        <result id="result_wlw_3m2_zjc">Your bottle is clean and ready for use.</result>
+    </taskbody>
+</task>

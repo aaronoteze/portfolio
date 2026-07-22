@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title></title>
+    <topicref href="topics/t_unboxing.dita"/>
+    <topicref href="topics/t_charging.dita"/>
+    <topicref href="topics/t_pairing.dita"/>
+    <topicref href="topics/t_cleaning.dita"/>
+</map>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_h2q_tg2_zjc">
+    <title>Charge Your Pulse Bottle</title>
+    <shortdesc>Charge your bottle fully before using it for the first time.</shortdesc>
+    <taskbody>
+        <context>
+            <p>A full charge takes approximately 90 minutes and powers the display for up to two
+                weeks.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Plug the USB-C cable into the charging port on the base of the bottle.</cmd>
+            </step>
+            <step>
+                <cmd>Connect the other end of the cable to any USB power source.</cmd>
+            </step>
+            <step>
+                <cmd>Wait until the display ring turns solid white, which indicates a full
+                    charge.</cmd>
+            </step>
+        </steps>
+        <result id="result_epr_d32_zjc">Your bottle is charged and ready to pair with the Pulse
+            app.</result>
+    </taskbody>
+</task>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_g2y_332_zjc">
+    <title>Pair Your Pulse Bottle with the App</title>
+    <shortdesc>Connect your bottle to the Pulse app to track your daily hydration.</shortdesc>
+    <taskbody>
+        <context>
+            <p>Ensure Bluetooth is enabled on your phone before you begin.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Download the Pulse app from the App Store or Google Play.</cmd>
+            </step>
+            <step>
+                <cmd>Open the app and tap Add Device.</cmd>
+            </step>
+            <step>
+                <cmd>Press and hold the cap button for three seconds until the display ring flashes
+                    blue.</cmd>
+            </step>
+            <step>
+                <cmd>Tap your bottle's name in the list of nearby devices shown in the app.</cmd>
+            </step>
+        </steps>
+        <result id="result_ot5_yj2_zjc">Your bottle is paired and will automatically sync your water
+            intake to the app.</result>
+    </taskbody>
+</task>

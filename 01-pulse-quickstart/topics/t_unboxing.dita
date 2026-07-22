@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_l2l_vgx_yjc">
+    <title>Unbox Your Pulse Bottle</title>
+    <shortdesc>Confirm you have all parts before setting up your Pulse bottle.</shortdesc>
+    <taskbody>
+        <context>
+            <p>Your Pulse box contains the bottle, a USB-C charging cable, and a quick start
+                card.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Remove the bottle, charging cable, and quick start card from the box.</cmd>
+            </step>
+            <step>
+                <cmd>Peel the protective film from the touch display on the cap.</cmd>
+            </step>
+            <step>
+                <cmd>Check that the rubber seal is seated correctly inside the cap.</cmd>
+            </step>
+        </steps>
+        <result id="result_k2w_kg2_zjc">Your Pulse bottle is ready to charge.</result>
+    </taskbody>
+</task>
