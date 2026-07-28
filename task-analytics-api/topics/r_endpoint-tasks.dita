@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_ufv_lhl_zjc">
+    <title>GET /tasks — List All Tasks</title>
+    <shortdesc>Returns a list of all tasks in your Tasklytics account.</shortdesc>
+    <refbody>
+        <section id="section_jfj_rhl_zjc">
+            <title>Request</title>
+            <p>Send a GET request to the /tasks endpoint. No request body is required. </p>
+            <p>Base URL:<ph keyref="base-url"/></p>
+        </section> 
+        <section id="section_vtk_pjl_zjc">
+            <title>Response</title>
+            <p>
+                <table frame="all" rowsep="1" colsep="1" id="table_s55_mll_zjc">
+                    <title/>
+                    <tgroup cols="3">
+                        <colspec colnum="1" colname="c1" colwidth="1*"/>
+                        <colspec colnum="2" colname="c2" colwidth="1*"/>
+                        <colspec colnum="3" colname="c3" colwidth="1*"/>
+                        <thead>
+                            <row>
+                                <entry>Field</entry>
+                                <entry>Type</entry>
+                                <entry>Description</entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry>id</entry>
+                                <entry>string</entry>
+                                <entry>Unique Identifier for the task</entry>
+                            </row>
+                            <row>
+                                <entry>title</entry>
+                                <entry>string</entry>
+                                <entry>The task title as entered by the user</entry>
+                            </row>
+                            <row>
+                                <entry>completed</entry>
+                                <entry>boolean</entry>
+                                <entry>True if the task is marked complete</entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </p>
+        </section>
+        <example id="example_ssf_dml_zjc">
+            <codeblock id="codeblock_zzm_dml_zjc">{
+  "tasks": [
+    {
+      "id": "t-001",
+      "title": "Prepare Q3 report",
+      "completed": false
+    }
+  ]
+}</codeblock>
+        </example>
+    </refbody>
+</reference>

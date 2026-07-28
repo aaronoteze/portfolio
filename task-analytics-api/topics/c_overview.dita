@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_nx2_dzk_zjc">
+    <title>Tasklytics API Overview</title>
+    <shortdesc>The Tasklytics API lets you create, read, update, and delete tasks programmatically
+        using standard HTTP requests.</shortdesc>
+    <conbody>
+        <p>The Tasklytics API follows REST conventions. Every resource is accessed through a URL
+            called an endpoint. You send HTTP requests to those endpoints — GET to read data, POST
+            to create it, PUT to update it, and DELETE to remove it. The API returns responses in
+            JSON format.</p>
+        <p>All requests must include your API key in the Authorization header. Requests that do not
+            include a valid key receive a 401 Unauthorized response.</p>
+    </conbody>
+</concept>

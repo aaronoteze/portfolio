@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_qdp_kcs_zjc">
+    <title>Error Codes</title>
+    <shortdesc>The Tasklytics API uses standard HTTP status codes to indicate whether a request
+        succeeded or failed.</shortdesc>
+    <refbody>
+        <table frame="all" rowsep="1" colsep="1" id="table_f2x_4cs_zjc">
+            <title/>
+            <tgroup cols="3">
+                <colspec colnum="1" colname="c1" colwidth="1*"/>
+                <colspec colnum="2" colname="c2" colwidth="1*"/>
+                <colspec colnum="3" colname="c3" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry>Code</entry>
+                        <entry>Status</entry>
+                        <entry>Meaning</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>200</entry>
+                        <entry>OK</entry>
+                        <entry>The request succeeded</entry>
+                    </row>
+                    <row>
+                        <entry>201</entry>
+                        <entry>Created</entry>
+                        <entry>A new task was created successfully</entry>
+                    </row>
+                    <row>
+                        <entry>400</entry>
+                        <entry>Bad Request</entry>
+                        <entry>The request was malformed or missing required fields</entry>
+                    </row>
+                    <row>
+                        <entry>401</entry>
+                        <entry>Unauthorized</entry>
+                        <entry>The API key is missing or invalid</entry>
+                    </row>
+                    <row>
+                        <entry>404</entry>
+                        <entry>Not Found</entry>
+                        <entry>The requested task does not exist</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </refbody>
+</reference>

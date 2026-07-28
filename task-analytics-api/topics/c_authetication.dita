@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_sfm_cfl_zjc">
+    <title>Authentication</title>
+    <shortdesc>All Tasklytics API requests require an API key passed in the request
+        header.</shortdesc>
+    <conbody>
+        <p>Your API key is generated when you create a Tasklytics developer account. You can view
+            and regenerate your key at any time from the Developer Settings page in your account
+            dashboard.</p>
+        <p>Include your API key in every request using the Authorization header. The value must be
+            the word Bearer followed by a space and then your key.</p>
+        <codeblock id="codeblock_n42_mfl_zjc">Authorization: Bearer YOUR_API_KEY_HERE</codeblock>
+    </conbody>
+</concept>
