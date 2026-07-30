@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE troubleshooting PUBLIC "-//OASIS//DTD DITA Troubleshooting//EN" "troubleshooting.dtd">
+<troubleshooting id="trouble_gcg_mlq_bkc">
+    <title>Router Is Online but Devices Cannot Access the Internet</title>
+    <shortdesc>All nodes show a white LED but connected devices cannot load websites or use
+        apps.</shortdesc>
+    <troublebody>
+        <condition>
+            <title>Condition</title>
+            <p>One or more devices are connected to the Aria network and the node LEDs are solid
+                white, but internet pages will not load and apps report no connection.</p>
+        </condition>
+        <troubleSolution>
+            <cause>
+                <title>Cause</title>
+                <p>Your modem has lost its connection to your internet service provider (ISP). This
+                    is the most common cause and is outside the router's control.</p>
+            </cause>
+            <remedy>
+                <title>Remedy</title>
+                <responsibleParty></responsibleParty>
+                <steps>
+                    <step>
+                        <cmd>Locate your modem — the box connected directly to the cable or phone
+                            line coming into your home.</cmd>
+                    </step>
+                    <step>
+                        <cmd>Unplug the modem's power cable, wait 30 seconds, and plug it back
+                            in.</cmd>
+                    </step>
+                    <step>
+                        <cmd>Wait two minutes for the modem to fully restart and re-establish the
+                            ISP connection.</cmd>
+                    </step>
+                    <step>
+                        <cmd>Check whether your devices can now access the internet. If not, contact
+                            your ISP directly.</cmd>
+                    </step>
+                </steps>
+            </remedy>
+        </troubleSolution>
+        <troubleSolution>
+            <cause id="cause_pbm_cjr_bkc">
+                <title>Cause</title>
+                <p>The Aria main node has lost its connection to the modem even though the LED is
+                    white. This can happen after a brief power fluctuation.</p>
+            </cause>
+            <remedy id="remedy_jqj_fjr_bkc">
+                <title>Remedy</title>
+                <responsibleParty/>
+                <steps id="steps_iw3_3jr_bkc">
+                    <step>
+                        <cmd>Unplug the Ethernet cable connecting your Aria main node to the modem,
+                            wait 10 seconds, and reconnect it firmly.</cmd>
+                    </step>
+                    <step>
+                        <cmd>Open the Aria app and check whether the main node's status changes to
+                            green within one minute.</cmd>
+                    </step>
+                    <step>
+                        <cmd>If the status does not change, restart the main node by unplugging its
+                            power cable, waiting 30 seconds, and plugging it back in.</cmd>
+                    </step>
+                </steps>
+            </remedy>
+        </troubleSolution>
+    </troublebody>
+</troubleshooting>

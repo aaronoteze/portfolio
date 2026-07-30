@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_mjt_n5k_bkc">
+    <title>How Aria Mesh Networking Works</title>
+    <shortdesc>Aria uses a mesh network where multiple nodes work together to provide whole-home
+        Wi-Fi coverage.</shortdesc>
+    <conbody>
+        <p>Unlike a traditional router that covers a single area, a mesh network consists of a main
+            node connected to your modem and one or more satellite nodes placed around your home.
+            Each node communicates with the others to create a single, seamless network.</p>
+        <p>Devices automatically connect to whichever node provides the strongest signal. If a node
+            goes offline or loses connection to the mesh, devices in its area will lose network
+            access until the node is restored.</p>
+        <p>The Aria app shows the status of each node in real time. A green icon means the node is
+            healthy. A yellow icon means it is connected but experiencing interference. A red icon
+            means it is offline.</p>
+    </conbody>
+</concept>

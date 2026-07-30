@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Aria Mesh Router Troubleshooting Guide</title>
+    <topicref href="topics/c_how-mesh-works.dita"/>
+    <topicref href="topics/r_led-status.dita"/>
+    <topichead navtitle="Troubleshooting">
+        <topicref href="topics/ts_no-internet.dita"/>
+        <topicref href="topics/ts_node-offline,dita.dita"/>
+    </topichead>
+</map>

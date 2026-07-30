@@ -6,12 +6,28 @@
             <serialized xml:space="preserve">
                 <serializableOrderedMap>
                     <entry>
-                        <String>keys.context</String>
-                        <String>file:/C:/Users/aaron/Downloads/portfolio/task-analytics-api/tasklytics.ditamap</String>
-                    </entry>
-                    <entry>
                         <String>scenario.associations</String>
                         <scenarioAssociation-array>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../aria-troubleshooting/aria.ditamap.ditamap</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>6/dita/ditamap.framework/DITA Map/DITA Map WebHelp Responsive</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
                                     <String>../task-analytics-api/02-tasklytics.ditamap</String>
@@ -101,6 +117,5 @@
     <projectTree name="pulse-quickstart.xpr">
         <folder path="."/>
         <folder path="topics/"/>
-        <file name="../task-analytics-api/tasklytics.ditamap"/>
     </projectTree>
 </project>

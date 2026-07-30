@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE troubleshooting PUBLIC "-//OASIS//DTD DITA Troubleshooting//EN" "troubleshooting.dtd">
+<troubleshooting id="trouble_bjz_sjr_bkc">
+    <title>Satellite Node Shows Red LED</title>
+    <shortdesc>A satellite node is showing a solid red LED and is not communicating with the
+        mesh.</shortdesc>
+    <troublebody>
+        <condition>
+            <title>Condition</title>
+            <p>The Aria app shows a satellite node with a red icon, and devices in that area of your
+                home have no Wi-Fi signal. The main node and any other satellite nodes are working
+                normally.</p>
+        </condition>
+        <troubleSolution>
+            <cause>
+                <title>Cause</title>
+                <p>The satellite node may be placed too far from the nearest node, and the mesh
+                    signal is too weak to maintain a stable backhaul connection.</p>
+            </cause>
+            <remedy>
+                <title>Remedy</title>
+                <responsibleParty></responsibleParty>
+                <steps>
+                    <step>
+                        <cmd>Open the Aria app and tap the offline node to see its last known signal
+                            strength.</cmd>
+                    </step>
+                    <step>
+                        <cmd>Move the node to a location closer to an adjacent node — typically no
+                            more than two rooms away.</cmd>
+                    </step>
+                    <step>
+                        <cmd>Wait one minute for the node to attempt to reconnect. The LED should
+                            change to white when the connection is established.</cmd>
+                    </step>
+                </steps>
+            </remedy>
+        </troubleSolution>
+        <troubleSolution>
+            <cause id="cause_tsq_2kr_bkc">
+                <title>Cause</title>
+                <p>The node may have lost power or experienced a firmware error.</p>
+            </cause>
+            <remedy id="remedy_fb2_fkr_bkc">
+                <title>Remedy</title>
+                <responsibleParty/>
+                <steps id="steps_mwy_gkr_bkc">
+                    <step>
+                        <cmd>Unplug the node's power cable and wait 30 seconds.</cmd>
+                    </step>
+                    <step>
+                        <cmd>Plug the power cable back in and wait two minutes for the node to
+                            restart.</cmd>
+                    </step>
+                    <step>
+                        <cmd>Check the Aria app to confirm the node's status has returned to green.
+                            If the node remains red after restarting, perform a factory reset by
+                            pressing and holding the reset button on the base of the node for 10
+                            seconds.</cmd>
+                    </step>
+                </steps>
+            </remedy>
+        </troubleSolution>
+    </troublebody>
+</troubleshooting>
