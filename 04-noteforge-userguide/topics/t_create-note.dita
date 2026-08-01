@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_fn5_4zr_bkc">
+    <title>Create a Note</title>
+    <shortdesc>Create a new note in your NoteForge library.</shortdesc>
+    <taskbody>
+        <context>
+            <p>You must be signed in before you can create notes.</p>
+        </context>
+        <steps id="steps_qrq_z1s_bkc">
+            <step conref="t_sign-in.dita#sign-in/open-app-step">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Tap the + button in the top-right corner of the notes library screen.</cmd>
+            </step>
+            <step>
+                <cmd>Type your note title in the Title field, then tap anywhere below to begin
+                    writing the note body.</cmd>
+            </step>
+            <step>
+                <cmd>Tap Done to save the note.</cmd>
+            </step>
+        </steps>
+        <result id="result_jk1_qbs_bkc">Your new note appears in your library and is synced to all
+            your devices automatically.</result>
+    </taskbody>
+</task>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>NoteForge User Guide</title>
+    <topicref href="topics/c_overview.dita"/>
+    <topicref href="topics/t_sign-in.dita"/>
+    <topicref href="topics/t_create-note.dita"/>
+    <topicref href="topics/t_collaborate.dita" audience="pro"/>
+</map>

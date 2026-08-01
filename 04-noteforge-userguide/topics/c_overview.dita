@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_whs_wxr_bkc">
+    <title>NoteForge Overview</title>
+    <shortdesc>NoteForge is a cross-platform notes app that syncs your content across all your
+        devices.</shortdesc>
+    <conbody>
+        <p>NoteForge stores your notes in the cloud and makes them available on any device where you
+            are signed in. Changes you make on one device appear on all others within seconds.</p>
+        <p>The Free plan includes unlimited notes and basic organisation features. The Pro plan adds
+            real-time collaboration, advanced tagging, and priority support.</p>
+    </conbody>
+</concept>

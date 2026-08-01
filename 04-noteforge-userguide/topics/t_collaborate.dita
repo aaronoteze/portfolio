@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_ivp_r1f_ckc">
+    <title>Collaborate on a Note in Real Time</title>
+    <shortdesc>Invite others to view and edit a note simultaneously using NoteForge Pro.</shortdesc>
+    <taskbody>
+        <context>
+            <p>Real-time collaboration requires a Pro subscription for all participants. Both the
+                note owner and any invited collaborators must have active Pro accounts.</p>
+        </context>
+        <steps>
+            <step conref="t_sign-in.dita#sign-in/open-app-step">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Open the note you want to share and tap the Share icon in the toolbar.</cmd>
+            </step>
+            <step>
+                <cmd>Type the email addresses of your collaborators in the Invite field, then tap
+                    Send Invite.</cmd>
+            </step>
+            <step>
+                <cmd>Collaborators receive an email invitation. When they open the shared note,
+                    their cursor and edits appear in real time in a colour unique to each
+                    person.</cmd>
+            </step>
+        </steps>
+        <result id="result_dhk_5lf_ckc">The note is now shared, and all invited collaborators can
+            view and edit it simultaneously.</result>
+    </taskbody>
+</task>

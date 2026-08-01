@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="sign-in">
+    <title>Sign In to NoteForge</title>
+    <shortdesc>Sign in to your NoteForge account to access your notes on this device.</shortdesc>
+    <taskbody>
+        <context>
+            <p>You need a NoteForge account to use the app. If you do not have one, tap Create
+                Account on the sign-in screen.</p>
+        </context>
+        <steps>
+            <step id="open-app-step">
+                <cmd>Open the NoteForge app on your device.</cmd>
+            </step>
+            <step>
+                <cmd>Enter your email address and password on the sign-in screen.</cmd>
+            </step>
+            <step>
+                <cmd>Tap Sign In.</cmd>
+            </step>
+        </steps>
+        <result id="result_d4m_jzr_bkc">Your notes library loads and your content is available on
+            this device.</result>
+    </taskbody>
+</task>
