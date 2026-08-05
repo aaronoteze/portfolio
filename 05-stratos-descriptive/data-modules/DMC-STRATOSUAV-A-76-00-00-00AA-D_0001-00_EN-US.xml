@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dmodule [
+]>
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation=
+    "http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://www.purl.org/dc/elements/1.1/"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <identAndStatusSection>
+        <dmAddress>
+            <dmIdent>
+                <dmCode modelIdentCode="STRAT0SUAV" systemDiffCode="A" systemCode="76"
+                    subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00"
+                    disassyCodeVariant="AA" infoCode="040" infoCodeVariant="A" itemLocationCode="D"/>
+                <language languageIsoCode="en" countryIsoCode="US"/>
+                <issueInfo issueNumber="000" inWork="00"/>
+            </dmIdent>
+            <dmAddressItems>
+                <issueDate year="2026" month="08" day="02"/>
+                <dmTitle>
+                    <techName>Stratos Compact UAV</techName>
+                    <infoName>Avionics System Description</infoName>
+                </dmTitle>
+            </dmAddressItems>
+        </dmAddress>
+        <dmStatus>
+            <security securityClassification="01"/>
+            <responsiblePartnerCompany></responsiblePartnerCompany>
+            <originator></originator>
+            <applic>
+                <displayText>
+                    <simplePara></simplePara>
+                </displayText>
+            </applic>
+            <brexDmRef>
+                <dmRef>
+                    <dmRefIdent>
+                        <dmCode 
+                            modelIdentCode="AAAA"
+                            systemDiffCode="A"
+                            systemCode="00"
+                            subSystemCode="0"
+                            subSubSystemCode="0"
+                            assyCode="00"
+                            disassyCode="00"
+                            disassyCodeVariant="A"
+                            infoCode="000"
+                            infoCodeVariant="A"
+                            itemLocationCode="A"/>
+                    </dmRefIdent>
+                </dmRef>
+            </brexDmRef>
+            <qualityAssurance>
+                <unverified/>
+            </qualityAssurance>
+        </dmStatus>
+    </identAndStatusSection>
+    <content>
+        <description>
+            <levelledPara>
+                <para>The Stratos avionics system is centred on a flight controller running
+                    ArduPilot open-source autopilot firmware. The flight controller processes sensor
+                    data and control inputs at 400 Hz, computing motor speed corrections to maintain
+                    the commanded flight path.</para>
+            </levelledPara>
+            <levelledPara>
+                <para>Attitude and heading reference is provided by a nine-axis inertial measurement
+                    unit (IMU) that combines a three-axis accelerometer, three-axis gyroscope, and
+                    three-axis magnetometer. GPS position and velocity are provided by a
+                    dual-frequency GNSS receiver with an accuracy of ±1.5 m horizontal under
+                    open-sky conditions.</para>
+            </levelledPara>
+            <levelledPara>
+                <para>The GCS communications link operates on the 2.4 GHz ISM band using
+                    frequency-hopping spread spectrum to minimise interference and interception.
+                    Link range is 5 km under line-of-sight conditions. If the link is lost, the
+                    flight controller automatically executes a return-to-home sequence.</para>
+            </levelledPara>
+        </description>
+    </content>
+</dmodule>
+
+

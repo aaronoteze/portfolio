@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dmodule [
+]>
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation=
+    "http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://www.purl.org/dc/elements/1.1/"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <identAndStatusSection>
+        <dmAddress>
+            <dmIdent>
+                <dmCode modelIdentCode="STRAT0SUAV" systemDiffCode="A" systemCode="00"
+                    subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00"
+                    disassyCodeVariant="AA" infoCode="040" infoCodeVariant="A" itemLocationCode="D"/>
+                <language languageIsoCode="en" countryIsoCode="US"/>
+                <issueInfo issueNumber="001" inWork="00"/>
+            </dmIdent>
+            <dmAddressItems>
+                <issueDate year="2026" month="08" day="01"/>
+                <dmTitle>
+                    <techName>Stratos Compact UAV</techName>
+                    <infoName>System Overview</infoName>
+                </dmTitle>
+            </dmAddressItems>
+        </dmAddress>
+        <dmStatus>
+            <security securityClassification="01"/>
+            <responsiblePartnerCompany enterpriseCode="U0001"/>
+            <originator enterpriseCode="U0001"/>
+            <applic>
+                <displayText>
+                    <simplePara></simplePara>
+                </displayText>
+            </applic>
+            <brexDmRef>
+                <dmRef>
+                    <dmRefIdent>
+                        <dmCode 
+                            modelIdentCode="AAAA"
+                            systemDiffCode="A"
+                            systemCode="00"
+                            subSystemCode="0"
+                            subSubSystemCode="0"
+                            assyCode="00"
+                            disassyCode="00"
+                            disassyCodeVariant="A"
+                            infoCode="000"
+                            infoCodeVariant="A"
+                            itemLocationCode="A"/>
+                    </dmRefIdent>
+                </dmRef>
+            </brexDmRef>
+            <qualityAssurance>
+                <unverified/>
+            </qualityAssurance>
+        </dmStatus>
+    </identAndStatusSection>
+    <content>
+        <description>
+            <levelledPara>
+                <para>The Stratos Compact UAV is an electrically powered unmanned aerial vehicle
+                    designed for aerial survey, reconnaissance, and inspection operations. It has a
+                    maximum takeoff weight of 2.8 kg, a wingspan of 1.2 m, and an operational
+                    endurance of 45 minutes per battery charge under standard conditions.</para>
+            </levelledPara>
+            <levelledPara>
+                <para>The vehicle operates autonomously using pre-programmed flight plans or can be
+                    manually controlled via the Stratos Ground Control Station (GCS). All flight
+                    data, including GPS position, altitude, and battery status, is transmitted to
+                    the GCS in real time via an encrypted 2.4 GHz radio link.</para>
+            </levelledPara>
+            <levelledPara>
+                <para>The Stratos is composed of four primary systems: the propulsion system, which
+                    includes twin counter-rotating brushless motors and an electronic speed
+                    controller; the avionics system, which includes the flight controller, GPS
+                    receiver, and inertial measurement unit; the power system, which includes the
+                    lithium polymer battery and power distribution board; and the payload bay, which
+                    accommodates interchangeable sensor modules up to 400 g.</para>
+            </levelledPara>
+            <levelledPara>
+                <title>Operating Limits</title>
+                <para>The Stratos is certified for operations within the following environmental limits:</para>
+                <para>
+                    <randomList>
+                        <listItem><para>Maximum wind speed: 10 m/s</para></listItem>
+                        <listItem><para>Operating temperature: -10°C to +45°C</para></listItem>
+                        <listItem><para>Maximum altitude above sea level: 3,000 m</para></listItem>
+                        <listItem><para>Minimum visibility: 500 m</para></listItem>
+                    </randomList>
+                </para>
+            </levelledPara>
+        </description>
+    </content>
+</dmodule>
+
